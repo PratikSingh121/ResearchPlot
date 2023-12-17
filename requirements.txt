@@ -1,0 +1,6 @@
+langchain
+openai
+cohere
+together
+huggingface-hub
+python-dotenv

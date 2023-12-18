@@ -14,6 +14,6 @@ class QuestionFraming:
             self.answer.append(answer)
         # Add more questions if needed
 
-    def form_dictionary(self):
-        dictionary = dict(zip(self.question, self.answer))
-        return dictionary
+    def format_information(self):
+        information = dict(zip(self.question, self.answer))
+        return information

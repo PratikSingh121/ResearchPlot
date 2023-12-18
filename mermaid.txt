@@ -1,64 +1,74 @@
 ```mermaid
-graph LR
+graph TD
 
-A[Introduction] --> B(Definition of a journal)
-A[Introduction] --> C(Importance of writing a journal)
+A[Introduction]
+B[Understanding the Game]
+C[Planning and Design]
+D[Programming Language Selection]
+E[Game Development Process]
+F[Resources and Assets]
+G[Distribution and Publishing]
+H[Conclusion]
 
-B --> D[Purpose of Writing a Journal Everyday]
-C --> D[Purpose of Writing a Journal Everyday]
+A --> B
+B --> C
+C --> D
+D --> E
+E --> F
+F --> G
+G --> H
 
-D --> E(Keeping a record of your life)
-D --> F(Reflecting on your thoughts, feelings, and experiences)
-D --> G(Gaining self-awareness and self-reflection)
-D --> H(Tracking progress and personal growth)
+C --> C1{Define storyline and plot}
+C --> C2{Identify characters, locations, and clues}
+C --> C3{Determine game mechanics}
 
-E --> I(How Long Have People Been Writing a Journal Everyday?)
-F --> I(How Long Have People Been Writing a Journal Everyday?)
-G --> I(How Long Have People Been Writing a Journal Everyday?)
-H --> I(How Long Have People Been Writing a Journal Everyday?)
+D --> D1(Flutter)
+D --> D2(Python)
 
-I --> J[Historical background of journal writing]
-I --> K[Examples of famous diarists throughout history]
+E --> E1(Game Engine/Development Framework Selection)
+E --> E2(Game Logic and AI Implementation)
+E --> E3(User Interface Design)
+E --> E4(Testing and Iteration)
 
-J --> L(Challenges in Writing a Journal Everyday)
-K --> L(Challenges in Writing a Journal Everyday)
+E1 --> E1a{Choose engine or framework}
+E2 --> E2a{Implement game logic}
+E2 --> E2b{Utilize AI techniques}
+E2 --> E2c{Design AI system}
 
-L --> M(Consistency and discipline)
-L --> N(Lack of time or motivation)
-L --> O(Overcoming writer's block)
-L --> P(Finding the right format or style)
+E3 --> E3a{Design user interface}
 
-M --> Q(Benefits of Writing a Journal Everyday)
-N --> Q(Benefits of Writing a Journal Everyday)
-O --> Q(Benefits of Writing a Journal Everyday)
-P --> Q(Benefits of Writing a Journal Everyday)
+E4 --> E4a{Test game}
+E4 --> E4b{Gather feedback}
+E4 --> E4c{Refine and enhance}
 
-Q --> R(Emotional and mental well-being)
-Q --> S(Stress reduction and relaxation)
-Q --> T(Improved self-confidence and self-esteem)
-Q --> U(Enhanced creativity and problem-solving skills)
+F --> F1{Use open-source resources}
+F --> F2{Explore online communities}
+F --> F3{Utilize free or low-cost assets}
 
-R --> V(Strategies to Stay Motivated to Write a Journal Everyday)
-S --> V(Strategies to Stay Motivated to Write a Journal Everyday)
-T --> V(Strategies to Stay Motivated to Write a Journal Everyday)
-U --> V(Strategies to Stay Motivated to Write a Journal Everyday)
+G --> G1{Explore free distribution platforms}
+G --> G2{Consider web-based or app store publishing}
+G --> G3{Promote the game}
 
-V --> W(Set a specific time and place for journaling)
-V --> X(Use prompts or writing exercises)
-V --> Y(Find a supportive community or accountability partner)
-V --> Z(Experiment with different journaling techniques or formats)
-V --> AA(Reward yourself for completing journal entries)
+H --> H1{Utilize coding knowledge and resources}
+H --> H2{Invest 80 hours per week}
+H --> H3{Follow structured development process}
 
-W --> BB(Tips for Effective Journaling)
-X --> BB(Tips for Effective Journaling)
-Y --> BB(Tips for Effective Journaling)
-Z --> BB(Tips for Effective Journaling)
-AA --> BB(Tips for Effective Journaling)
-
-BB --> CC[Conclusion]
-
-CC --> DD(Recap of the benefits and purpose of writing a journal everyday)
-CC --> EE(Encouragement to start journaling and overcome challenges)
-CC --> FF(Remind the client of the importance of staying consistent and motivated in their journaling practice.)
-
+C1 --> C2
+C2 --> C3
+E1a --> E2a
+E1a --> E2b
+E1a --> E2c
+E2a --> E3a
+E2b --> E3a
+E2c --> E3a
+E3a --> E4a
+E4a --> E4b
+E4b --> E4c
+F1 --> F2
+F2 --> F3
+G1 --> G2
+G2 --> G3
+H1 --> H2
+H2 --> H3
+```
 ```

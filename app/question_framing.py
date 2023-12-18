@@ -4,9 +4,10 @@ class QuestionFraming:
         self.answer = []
 
     def ask_questions(self):
-        print("Answer the following questions:  (Leave blank if no answer)")
+        print('\033[91m' + "Answer the following questions:  (Leave blank if no answer)" + '\033[0m')
         for i in self.question:
-            print(i+ "\n > ", end="")
+            # print in blue color
+            print('\033[94m' + i + "\n > " + '\033[0m', end="")
             answer = input()
             if answer == "":
                 answer = "No answer"

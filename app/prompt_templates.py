@@ -11,7 +11,7 @@ class GetPromptTemplates:
   
   def ResearchPromptTemplate(self, questions = ''):
     if questions != '':
-      research_bot_prompt = research_bot_prompt_1 + "\n\nAdditional Information : " + questions + "\n\n" + research_bot_prompt_2;
+      research_bot_prompt = research_bot_prompt_1 + "\n\nQuestions Answered by the user : " + questions + "\n\n" + research_bot_prompt_2;
     else:
       research_bot_prompt = research_bot_prompt_1 + "\n\n" + research_bot_prompt_2;
     

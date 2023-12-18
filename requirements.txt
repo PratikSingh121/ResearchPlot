@@ -4,3 +4,4 @@ cohere
 together
 huggingface-hub
 python-dotenv
+pytest

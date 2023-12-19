@@ -11,11 +11,11 @@ class GetPromptTemplates:
   
   def ResearchPromptTemplate(self, questions = ''):
     if questions != '':
-      research_bot_prompt = research_bot_prompt_1 + "\n\nQuestions Answered by the user : " + questions + "\n\n" + research_bot_prompt_2;
+      research_bot_final_prompt = research_bot_prompt + "\n\nQuestions Answered by the user : " + questions + "\n\n" + "Output :\n\n";
     else:
-      research_bot_prompt = research_bot_prompt_1 + "\n\n" + research_bot_prompt_2;
+      research_bot_final_prompt = research_bot_prompt + "\n\n" + "Output :\n\n";
     
-    ResearchPromptTemplate = PromptTemplate(template= research_bot_prompt, input_variables=["Topic"])
+    ResearchPromptTemplate = PromptTemplate(template= research_bot_final_prompt, input_variables=["Topic"])
     # partial_variables={"format_instructions": self.research_parser.get_format_instructions()} 
     return ResearchPromptTemplate.format_prompt(Topic = self.topic).to_string()
   

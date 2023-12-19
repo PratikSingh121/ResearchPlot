@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-llm = ChatOpenAI(openai_api_key = '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')
+llm = ChatOpenAI()
 # llm = ChatCohere(temperature=0.3)
 
 class Chains:

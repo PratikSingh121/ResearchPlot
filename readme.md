@@ -1,10 +1,11 @@
 # ResearchPlot
 
-![LangChain Logo](readme/researchplot_logo.png)
-
-## Overview
-
-The Research Assistant is a Python project that leverages the power of the LangChain library and the OpenAI API to conduct research on a given topic, keyword, question, or statement. The project aims to understand the user's scenario, ask relevant questions, and generate a Mermaid code, which is then converted into a flowchart for clear and concise representation of the research findings.
+<div style="display: flex; align-items: center;">
+  <img src="./readme/researchplot_logo.png" alt="LangChain Logo" width="35%">
+  <p style="margin-left: 20px; flex: 1;">
+    The LangChain Research Assistant is a Python project that leverages the power of the LangChain library and the OpenAI API to conduct research on a given topic, keyword, question, or statement. The project aims to understand the user's scenario, ask relevant questions, and generate a Mermaid code, which is then converted into a flowchart for clear and concise representation of the research findings.
+  </p>
+</div>
 
 **Note:** This project utilizes [Mermaid.js](https://mermaid-js.github.io/mermaid/) to create flowchart images.
 
@@ -14,6 +15,10 @@ The Research Assistant is a Python project that leverages the power of the LangC
 - Intelligent question generation based on user input.
 - Automatic generation of Mermaid code for a flowchart representation.
 - Integration with the OpenAI API for enhanced natural language processing.
+
+## Example Output
+
+![Flowchart Example](./readme/researchplot_output.png)
 
 ## Getting Started
 
@@ -71,5 +76,6 @@ Before running the project, ensure that you have an OpenAI API key. You can obta
 
 1. Execute the main script.
 2. Enter the topic, keyword, question, or statement when prompted.
-3. The LangChain Research Assistant will analyze the input, generate relevant questions, and provide Mermaid code for a flowchart.
+3. ResearchPlot will analyze the input, ask relevant questions, provide Mermaid code for a flowchart and the flowchart itself.
 4. Visualize the flowchart to represent the research findings.
+5. Image is saved in outputs folder.

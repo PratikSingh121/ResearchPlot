@@ -1,7 +1,7 @@
 # ResearchPlot
 
 <div style="display: flex; align-items: center;">
-  <img src="./readme/researchplot_logo.png" alt="LangChain Logo" width="35%">
+  <img src="./readme/researchplot_logo.png" alt="LangChain Logo" width="30%">
   <p style="margin-left: 20px; flex: 1;">
     The LangChain Research Assistant is a Python project that leverages the power of the LangChain library and the OpenAI API to conduct research on a given topic, keyword, question, or statement. The project aims to understand the user's scenario, ask relevant questions, and generate a Mermaid code, which is then converted into a flowchart for clear and concise representation of the research findings.
   </p>

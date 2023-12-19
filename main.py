@@ -77,7 +77,7 @@ print('\033[92m' + "Mermaid Flowchart saved in flowchart.mmd ✅\n" + '\033[0m')
 
 # Assuming the Mermaid code is in a file called 'mermaid.mmd'
 mermaid_file = BASE_DIR + '/flowchart.mmd'
-output_file = BASE_DIR + 'outputs/output.png'
+output_file = BASE_DIR + '/outputs/output.png'
 
 # check if outputs folder exists
 if not os.path.exists(BASE_DIR + '/outputs'):

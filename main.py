@@ -10,7 +10,7 @@ from packages.chains import Chains
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # Getting Topic
-print('\033[93m' + "Enter the topic. You can add just a keyword or a desciption.\nTopic : > " + '\033[0m', end="")
+print('\033[93m' + "Enter the topic. You can add just a keyword or a description.\nTopic : > " + '\033[0m', end="")
 topic = input()
 print()
 
@@ -20,7 +20,6 @@ PromptTemplate = GetPromptTemplates(topic)
 QuestionParser = CommaSeparatedListOutputParser()
 
 # Getting Questions
-
 print('\033[92m' + "Do you want to answer some questions? (y/n) \nAnswer : > " + '\033[0m', end="")
 questions_allowed = input()
 print()

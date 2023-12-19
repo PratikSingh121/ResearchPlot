@@ -27,7 +27,7 @@ Don't used ' in the output. Use " instead.
 
 mermaid_maker_prompt = '''### Instructions
 
-You are an expert in the subject of writing Mermaid Code. You are given a structured and organized dataset of research data. Your task is to create a mermaid diagram that represents the data in a clear and concise way.
+You are an expert in the subject of writing Mermaid Code. You are given a structured and organized dataset of research data. Your task is to create a mermaid diagram that represents the data in a clear and concise way. The subtopics should have detailed explanation.
 
 ### Context
 
@@ -59,8 +59,7 @@ Review, iterate, and seek feedback for clarity and accuracy.
 Use colors and annotations sparingly and purposefully.
 Test the flowchart to ensure it accurately represents the process.
 
-These characters : ", ', \, (, ), [, ], {, }, <, >, &, %, #, $, @, :, ;, ,, ., ?, !, +, -, *, /, =
-carry special meaning to the code. Use them with escape sequence in strings.
+Note : Using special characters in mermaid code carry special meaning and should be used with caution. Use escape sequence in strings. Use \ when using paranthesis and quotes in the string. The output flowchart should not be very big in size when viewed. Make it colourful.
 
 Information to make flowchart on : {information}
 
@@ -73,3 +72,5 @@ fallback_prompt_maker = '''You are a prompt maker. Return a prompt to make a mer
 Information: {information}
 
 additional information: {Additional}'''
+
+#creating a group of agents for specific researches and research organizations and structuring

@@ -1,8 +1,12 @@
 # ResearchPlot
 
+![LangChain Logo](readme/researchplot_logo.png)
+
 ## Overview
 
 The Research Assistant is a Python project that leverages the power of the LangChain library and the OpenAI API to conduct research on a given topic, keyword, question, or statement. The project aims to understand the user's scenario, ask relevant questions, and generate a Mermaid code, which is then converted into a flowchart for clear and concise representation of the research findings.
+
+**Note:** This project utilizes [Mermaid.js](https://mermaid-js.github.io/mermaid/) to create flowchart images.
 
 ## Features
 
@@ -15,31 +19,16 @@ The Research Assistant is a Python project that leverages the power of the LangC
 
 ### Prerequisites
 
-Before running the project, ensure that you have an OpenAI API key. You can obtain one [here](https://platform.openai.com/api-keys). Additionally, make sure you have the required dependencies by installing them using the `requirements.txt` file.
-
-```bash
-pip install -r requirements.txt
-```
+Before running the project, ensure that you have an OpenAI API key. You can obtain one [here](https://platform.openai.com/api-keys).
 
 ## Installation
 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/langchain-research-assistant.git
-   cd langchain-research-assistant
+   git clone https://github.com/PratikSingh121/ResearchPlot.git
+   cd ResearchPlot
    ```
-
-## Installation
-
-1. **Clone the repository:**
-
-   - Run the following command in your terminal:
-
-     ```
-     git clone https://github.com/your-username/langchain-research-assistant.git
-     cd langchain-research-assistant
-     ```
 
 2. **Set up your OpenAI API key:**
 
@@ -49,18 +38,32 @@ pip install -r requirements.txt
    - Create an account or log in if you already have one.
    - Generate a new API key and copy it.
 
-   Replace `YOUR_API_KEY` in the `.env` file with the API key you obtained.
+   Replace `OPENAI_API_KEY` in the `.env` file with the API key you obtained.
 
    ```bash
    # .env
-   OPENAI_API_KEY = 'YOUR_API_KEY'
+   OPENAI_API_KEY = 'OPENAI_API_KEY'
    ```
 
-3. **Run the main script:**
+3. **Install dependencies:**
+
+- Ensure you have the required Python dependencies by running the following command:
+
+  ```bash
+  pip install -r requirements.txt
+  ```
+
+- Install Mermaid.js using npm. Run the following command:
+
+  ```bash
+  npm install -g @mermaid-js/mermaid-cli
+  ```
+
+4. **Run the main script:**
 
 - Execute the following command in your terminal:
 
-  ```
+  ```bash
   python main.py
   ```
 
